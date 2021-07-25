@@ -1,0 +1,7 @@
+Pyrogram
+TgCrypto
+youtube_dl
+gTTS
+pyaml
+youtube-search-python
+python-mpv
