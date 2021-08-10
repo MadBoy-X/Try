@@ -10,7 +10,7 @@ from helpers.decorators import errors
 from config import CHAT_ID
 
 
-@Client.on_message(filters.text & filters.private)
+@Client.on_message(filters.text & filters.private & filters.command("play"))
 @errors
 def play(client: Client, message: Message):
     if not is_youtube(message.text):
